@@ -1,26 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
-import AYE from "./546";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import LandingPage from "./Components/pages/LandingPage/LandingPage";
+import NavHeader from "./Components/UI/NavHeader/NavHeader";
+import NavFooter from "./Components/UI/NavFooter/NavFooter";
+import BookPage from "./Components/pages/BookPage/BookPage";
+import Page404 from "./Components/pages/Page404/Page404";
+import LessonPage from "./Components/pages/LessonPage/LessonPage";
+import AboutPage from "./Components/pages/AboutPage/AboutPage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.dasdadsadasddsad
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {console.log(AYE())}
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+        <NavHeader/>
+      <Routes>
+        <Route path="/" element={<LandingPage/>} />
+        <Route path="/about" element={<AboutPage/>} />
+        <Route path="/book/:type" element={<BookPage/>} />
+        <Route path="/lesson/:type" element={<LessonPage/>} />
+        <Route path="*" element={<Page404/>} />
+      </Routes>
+        <NavFooter/>
+    </BrowserRouter>
   );
 }
 

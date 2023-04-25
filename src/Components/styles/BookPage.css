@@ -1,0 +1,12 @@
+.lessonblock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #565a5e;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 15px;
+    min-width: 20%;
+    z-index: 2;
+    position: relative;
+}

@@ -1,0 +1,80 @@
+{
+  "introduction": {
+    "title": "Введение",
+    "path": "/book/introduction",
+    "desc": "Вводный материал для самых начинающих",
+    "themes": [{
+      "title": "Что нужно прежде?",
+      "path": "/lesson/before-all"
+    },{
+      "title": "Роудмапы",
+      "path": "/lesson/roadmaps"
+    },{
+      "title": "Выбор языка ЯП",
+      "path": "/lesson/language-choice"
+    }]
+  },
+  "learn-choice": {
+    "title": "Выбор обучения",
+    "path": "/book/learn-choice",
+    "desc": "Начните с выбора языка и изучите их особенности",
+    "themes": [{
+      "title": "Онлайн школы",
+      "path": "/lesson/online-schools"
+    },{
+      "title": "Туторы",
+      "path": "/lesson/tutors"
+    },{
+      "title": "Самообразование",
+      "path": "/lesson/self-learning"
+    }]
+  },
+  "online-schools-deep": {
+    "title": "Онлайн школы: о каждом",
+    "path": "/book/online-schools-deep",
+    "desc": "Самый простой и удобный путь - с наставничеством, начинается здесь",
+    "themes": [{
+      "title": "Skillbox",
+      "path": "/lesson/skillbox"
+    },{
+      "title": "SkillFactory",
+      "path": "/lesson/skillfactory"
+    },{
+      "title": "Yandex Практикум",
+      "path": "/lesson/yandexprancticum"
+    },{
+      "title": "GeekBrains",
+      "path": "/lesson/geekbrains"
+    }]
+  },
+  "self-learning-deep": {
+    "title": "Самообразование: путь самурая",
+    "path": "/book/self-learning-deep",
+    "desc": "Тяжёлый и долгий, но верный и точный путь к тому, чтобы называть себя истиным гуру",
+    "themes": [{
+      "title": "Youtube",
+      "path": "/lesson/youtube"
+    },{
+      "title": "Форумы",
+      "path": "/lesson/forums"
+    },{
+      "title": "Онлайн учебники",
+      "path": "/lesson/online-books"
+    },{
+      "title": "Нейросети",
+      "path": "/lesson/neurolinks"
+    }]
+  },
+  "additional-material": {
+    "title": "Дополнительный материал",
+    "path": "/book/additional-material",
+    "desc": "То, что вам может понадобиться в трудный момент",
+    "themes": [{
+      "title": "Книги",
+      "path": "/lesson/books"
+    },{
+      "title": "Полезные ссылки",
+      "path": "/lesson/useful-links"
+    }]
+  }
+}

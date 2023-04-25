@@ -1,0 +1,54 @@
+p{
+    margin: 0;
+    color: #e2e3e7;
+    display: inline-block;
+}
+h1, h2, h3, h4, h5{
+    color: #e2e3e7;
+    display: inline-block;
+
+}
+.linked{
+    text-decoration: none;
+    color: #e2e3e7;
+}
+.linked:hover{
+    color: #e3795f;
+    text-decoration: underline #e3795f;
+    cursor: pointer;
+}
+.vertflo{
+    opacity: 0;
+    animation: hidinvert 1s infinite linear;
+}
+@keyframes hidinvert {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    51%{
+        opacity: 1;
+    }
+    99%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.selectlearnblock{
+    width: 60%;
+    display: flex;
+}
+.learnblock{
+    padding-top: 15px;
+    border-bottom: 1px grey solid;
+    transition: border-bottom-color .3s;
+    display: flex;
+    align-items: center;
+}
+.learnblock:hover{
+    border-bottom: 1px #ceaeae solid;
+}

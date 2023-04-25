@@ -1,0 +1,20 @@
+p{
+    margin: 0;
+    color: #e2e3e7;
+    display: inline-block;
+}
+h1, h2, h3, h4, h5{
+    color: #e2e3e7;
+    display: inline-block;
+
+}
+.navfooter{
+    background-color: #191b1e;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    border-top: #30353d 5px solid;
+    padding: 35px;
+}

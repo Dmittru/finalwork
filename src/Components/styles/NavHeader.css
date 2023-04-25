@@ -1,0 +1,50 @@
+.navbar{
+    background-color: #232529;
+    color: #969eaa;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around !important;
+    align-items: center;
+    border-bottom: #30353d 5px solid;
+}
+.logotext{
+    margin: 0;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.logotext:hover{
+    font-size: 2em;
+    text-shadow: black 4px 4px 5px,
+    red 7px 7px 0px,
+yellow 12px 12px 0px,
+blue 15px 15px 0px;
+}
+.logoimg{
+    cursor:pointer;
+    height:65px;
+    transition: all .3s linear;
+}
+.logoimg:hover{
+    animation: flowin 1s 1;
+}
+@keyframes flowin {
+    0%{
+        rotate: 0deg;
+    }
+    10%{
+        rotate: 40deg;
+    }
+    25%{
+        rotate: -32deg;
+    }
+    50%{
+        rotate: 20deg;
+    }
+    75%{
+        rotate: -10deg;
+    }
+    100%{
+        rotate: 0deg;
+    }
+}
