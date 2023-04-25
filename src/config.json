@@ -5,13 +5,19 @@
     "desc": "Вводный материал для самых начинающих",
     "themes": [{
       "title": "Что нужно прежде?",
-      "path": "/lesson/before-all"
+      "path": "/lesson/before-all",
+      "nextTitle": "Роудмапы",
+      "next": "/lesson/roadmaps"
     },{
       "title": "Роудмапы",
-      "path": "/lesson/roadmaps"
+      "path": "/lesson/roadmaps",
+      "nextTitle": "Web ЯП",
+      "next": "/lesson/web-language"
     },{
-      "title": "Выбор языка ЯП",
-      "path": "/lesson/language-choice"
+      "title": "Web ЯП",
+      "path": "/lesson/web-language",
+      "nextTitle": "Выбор обучения",
+      "next": "/book/learn-choice"
     }]
   },
   "learn-choice": {
@@ -20,13 +26,19 @@
     "desc": "Начните с выбора языка и изучите их особенности",
     "themes": [{
       "title": "Онлайн школы",
-      "path": "/lesson/online-schools"
+      "path": "/lesson/online-schools",
+      "nextTitle": "Туторы",
+      "next": "/lesson/tutors"
     },{
       "title": "Туторы",
-      "path": "/lesson/tutors"
+      "path": "/lesson/tutors",
+      "nextTitle": "Самообразование",
+      "next": "/lesson/self-learning"
     },{
       "title": "Самообразование",
-      "path": "/lesson/self-learning"
+      "path": "/lesson/self-learning",
+      "nextTitle": "Онлайн школы: о каждом",
+      "next": "/book/online-schools-deep"
     }]
   },
   "online-schools-deep": {
@@ -35,16 +47,24 @@
     "desc": "Самый простой и удобный путь - с наставничеством, начинается здесь",
     "themes": [{
       "title": "Skillbox",
-      "path": "/lesson/skillbox"
+      "path": "/lesson/skillbox",
+      "nextTitle": "SkillFactory",
+      "next": "/lesson/skillfactory"
     },{
       "title": "SkillFactory",
-      "path": "/lesson/skillfactory"
+      "path": "/lesson/skillfactory",
+      "nextTitle": "Yandex Практикум",
+      "next": "/lesson/yandexprancticum"
     },{
       "title": "Yandex Практикум",
-      "path": "/lesson/yandexprancticum"
+      "path": "/lesson/yandexprancticum",
+      "nextTitle": "GeekBrains",
+      "next": "/lesson/geekbrains"
     },{
       "title": "GeekBrains",
-      "path": "/lesson/geekbrains"
+      "path": "/lesson/geekbrains",
+      "nextTitle": "Самообразование: путь самурая",
+      "next": "/book/self-learning-deep"
     }]
   },
   "self-learning-deep": {
@@ -53,16 +73,24 @@
     "desc": "Тяжёлый и долгий, но верный и точный путь к тому, чтобы называть себя истиным гуру",
     "themes": [{
       "title": "Youtube",
-      "path": "/lesson/youtube"
+      "path": "/lesson/youtube",
+      "nextTitle": "Форумы",
+      "next": "/lesson/forums"
     },{
       "title": "Форумы",
-      "path": "/lesson/forums"
+      "path": "/lesson/forums",
+      "nextTitle": "Онлайн учебники",
+      "next": "/lesson/online-books"
     },{
       "title": "Онлайн учебники",
-      "path": "/lesson/online-books"
+      "path": "/lesson/online-books",
+      "nextTitle": "Нейросети",
+      "next": "/lesson/neurolinks"
     },{
       "title": "Нейросети",
-      "path": "/lesson/neurolinks"
+      "path": "/lesson/neurolinks",
+      "nextTitle": "Дополнительный материал",
+      "next": "/book/additional-material"
     }]
   },
   "additional-material": {
@@ -71,10 +99,14 @@
     "desc": "То, что вам может понадобиться в трудный момент",
     "themes": [{
       "title": "Книги",
-      "path": "/lesson/books"
+      "path": "/lesson/books",
+      "nextTitle": "Полезные ссылки",
+      "next": "/lesson/useful-links"
     },{
       "title": "Полезные ссылки",
-      "path": "/lesson/useful-links"
+      "path": "/lesson/useful-links",
+      "nextTitle": "В оглавление",
+      "next": "/book/main"
     }]
   }
 }

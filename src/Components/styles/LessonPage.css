@@ -1,0 +1,28 @@
+.headlesson{
+    border-bottom: #6c615e 1px solid;
+    padding: 15px 15px 5px 15px;
+    display: block;
+    margin-bottom: 50px;
+}
+.headshadowtext{
+    display: block;
+    font-size: 1.15em;
+    color: #969eaa;
+    margin: 15px 5px;
+}
+.nextskiper{
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e2e3e7;
+}
+.nextskiper:hover{
+    background-color: rgba(59, 59, 59, 0.4);
+}
